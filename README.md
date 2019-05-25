@@ -40,12 +40,14 @@ file_name = file_path + mozart_sonataDMaj.midi_filename.iloc[0]
 # Calling the Function and Options
 To call the function, simply open the script and give the following command:
 
-```MAESTRO_midi_graph(file_name)
+```
+MAESTRO_midi_graph(file_name)
 ```
 
 The MAESTRO_midi_graph function has several options that may be specified. The full function call is listed below.
 
-```MAESTRO_midi_graph(file_name, plot_type='jointplot', axes_=False, 
+```
+MAESTRO_midi_graph(file_name, plot_type='jointplot', axes_=False, 
                        palette='icefire', gridsize=88, figwidth=20, 
                        figheight=10)
 ```

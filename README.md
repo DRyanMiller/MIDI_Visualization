@@ -1,4 +1,4 @@
-# MIDI_Visualization
+# MAESTRO_midi_graph
 Function for visualizing MIDI files from the MAESTRO dataset
 
 # Explanation of Script and Data

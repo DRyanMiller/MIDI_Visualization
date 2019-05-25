@@ -33,19 +33,22 @@ mozart_sonataDMaj.midi_filename.iloc[0]
 
 The last step before creating your visualization is to create a string object with the path to the file name. Assign the string to the object file_name. Below is an example:
 
-file_path = "/Users/username/Desktop/maestro-v2.0.0/"
+```file_path = "/Users/username/Desktop/maestro-v2.0.0/"
 file_name = file_path + mozart_sonataDMaj.midi_filename.iloc[0]
+```
 
 # Calling the Function and Options
 To call the function, simply open the script and give the following command:
 
 ```MAESTRO_midi_graph(file_name)
 ```
+
 The MAESTRO_midi_graph function has several options that may be specified. The full function call is listed below.
 
 ``` MAESTRO_midi_graph(file_name, plot_type='jointplot', axes_=False, 
                        palette='icefire', gridsize=88, figwidth=20, 
                        figheight=10)
 ```
+
 The only plot types currently supported are 'jointplot' and 'kdeplot'. The axes_ option turns on and off the axis labels, tick labels, and marginal plots. The palette option can be set to any Seaborn supported palette. The gridsize changes the size of the hexagons in the jointplot. Figwidth and figheight set the width and height of the plot, respectively. 
 

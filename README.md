@@ -1,5 +1,5 @@
 # MAESTRO_midi_graph
-Function for visualizing MIDI files from the MAESTRO dataset
+A function for visualizing MIDI files from the MAESTRO dataset. To use this function, you will need to install the following packages: pandas, seaborn, mido, and matplotlib.
 
 # Explanation of Script and Data
 This Python script is a function for visualizing MIDI data from the MAESTRO dataset. The MAESTRO dataset contains over 200 hours of piano performances from the International Piano-e-Competition. Participants in the competition perform on Yamaha Disklaviers, acoustic pianos that can also capture and playback Musical Instrument Digital Interface (MIDI) data. The MAESTRO dataset contains MIDI data from contestant performances as well as audio recordings of the performances.

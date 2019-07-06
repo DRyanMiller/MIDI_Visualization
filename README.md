@@ -4,7 +4,7 @@ A function for visualizing MIDI files from the MAESTRO dataset. To use this func
 # Explanation of Script and Data
 This Python script is a function for visualizing MIDI data from the MAESTRO dataset. The MAESTRO dataset contains over 200 hours of piano performances from the International Piano-e-Competition. Participants in the competition perform on Yamaha Disklaviers, acoustic pianos that can also capture and playback Musical Instrument Digital Interface (MIDI) data. The MAESTRO dataset contains MIDI data from contestant performances as well as audio recordings of the performances.
 
-Detailed instructions on how the script works can be found on [Medium](https://medium.com/@d.ryanmiller542/visualizing-musical-performance-5da28b96957a).
+Detailed instructions on how the script works can be found on [Medium](https://towardsdatascience.com/visualizing-musical-performance-5da28b96957a).
 
 # Using the Function
 Below using this function, you will need to download the MIDI data from the [MAESTRO dataset website](https://magenta.tensorflow.org/datasets/maestro). Once the data is downloaded, you must choose a file to use. The following section outlines how to select a piece.
